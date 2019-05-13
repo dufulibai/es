@@ -1,0 +1,55 @@
+ {
+  "th":[  
+         {
+             "title":"电话",
+             "key":"phone"
+        },
+        {
+             "title":"角色",
+             "key":"role"
+        },
+         {
+            "title": "性别",
+            "key": "gender"
+        },
+         {
+            "title": "工号",
+            "key": "workNum"
+        },
+        {
+            "title": "姓名",
+            "key": "name"
+        }
+      ], 
+  "td":[
+   {
+     "name":"小刘",
+     "workNum":"2019052003",
+     "gender":"male",
+     "role":[{"checked":true,"value":"督导"},{"checked":true,"value":"老师"}],
+     "phone":"88888888888"
+  },
+  {
+     "name":"小刘",
+     "workNum":"2019055555",
+     "gender":"female",
+     "role":[{"checked":false,"value":"督导"},{"checked":true,"value":"老师"}],
+     "phone":"00000000000"
+  },
+  {
+     "name":"小池",
+     "workNum":"2019052015",
+     "gender":"male",
+     "role":[{"checked":false,"value":"督导"},{"checked":true,"value":"老师"}],
+     "phone":"55655589789"
+  },
+  {
+     "name":"小红",
+     "workNum":"2014552003",
+     "gender":"female",
+     "role":[{"checked":false,"value":"督导"},{"checked":true,"value":"老师"}],
+     "phone":"78787878786"
+  }
+ ]
+}
+
