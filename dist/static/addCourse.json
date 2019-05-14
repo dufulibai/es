@@ -1,0 +1,71 @@
+ {
+  "th":[ 
+        {
+             "title":"班级",
+             "key":"class"
+        },
+        {
+             "title":"年级",
+             "key":"grade"
+        }, 
+         {
+             "title":"专业",
+             "key":"prof"
+        },
+         {
+             "title":"上课时间",
+             "key":"time"
+        },
+         {
+            "title": "所授课程",
+            "key": "course"
+        },
+         {
+            "title": "工号",
+            "key": "workNum"
+        },
+        {
+            "title": "姓名",
+            "key": "name"
+        }
+      ], 
+  "td":[
+   {
+     "name":"小刘",
+     "workNum":"2019052003",
+     "course":"工程实践",
+     "time":"周二: 4 5 节;",
+     "prof":"计算机应用",
+     "grade":"16级",
+     "class":"1班"
+  },
+  {
+     "name":"小刘",
+     "workNum":"2019055555",
+     "course":"计算机网络",
+     "time":"周二: 7 8 节;",
+     "prof":"计算机应用",
+     "grade":"16级",
+     "class":"2班"
+  },
+  {
+     "name":"小池",
+     "workNum":"2019052015",
+     "course":"计算机组成原理",
+     "time":"周三: 4 5 节;",
+     "prof":"计算机应用",
+     "grade":"16级",
+     "class":"2班"
+  },
+  {
+     "name":"小刘",
+     "workNum":"2019055555",
+     "course":"计算机网络",
+     "time":"周四: 4 5 节;",
+     "prof":"计算机应用",
+     "grade":"16级",
+     "class":"1班"
+  }
+ ]
+}
+
