@@ -63,12 +63,7 @@
                         }
                         this.dataTd=response.data.td;
                         this.data6 =response.data.td;
-                        console.log("6");
-                        console.log(this.data6); 
-                       for(let i in this.data6){
-                            this.data6[i].role = this.data6[i].role.filter(item => item.checked).map(item => item.value)
-                           }
-                      });
+                       });
         },
         watch:{
             data8:function(newdata, olddata){
@@ -87,8 +82,6 @@
                     return 'demo-table-info-row';
             },
             Modify(index){
-              console.log("xx");
-              console.log(this.dataTd[index]);
                  this.$emit("sendModify",this.dataTd[index]);
                 //  this.$Modal.info({
                 //     title: '用户信息',
@@ -108,7 +101,8 @@ top: 131px;
 right: 20px;
 border: 1px solid #040506;
 }
-
+</style>
+<style>
 .ivu-table th {
     height: 40px;
     white-space: nowrap;

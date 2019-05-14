@@ -122,29 +122,8 @@ import addTea from './addTeacher.vue'
     }
 </script>
 <style scoped>
-	  .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar{
-  	  background: #000;
-  	border: 1px solid #000;
-  }
-  .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active{
-  
-    color:#000;
-    border-color:#000;
-    background: #e8ebcc;
-  }
-  .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab{
-  	border: 1px solid #0c0e14;
-  	border-bottom:none;
-  }
-  .ivu-tabs-nav .ivu-tabs-tab:hover {
-    color: #0c0e14;
-}
-.ivu-tabs-nav-container:focus .ivu-tabs-tab-focused {
-    border-color: #02080e !important;
-}
-.ivu-tabs-nav {
-    padding-left: 400px;
-    }
+
+
 .addT{
 	display: inline-block;
 position: absolute;

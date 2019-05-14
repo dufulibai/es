@@ -6,7 +6,7 @@
 			</div>
 			<div class="body">
     		    <Tabs type="card" v-model="currentTab">
-                    <TabPane v-for="item in tabs" :label="item.label" :name="item.name">
+                    <TabPane v-for="item in tabs" v-bind:key="item.id" :label="item.label" :name="item.name">
                     </TabPane>
     		    </Tabs>
 		    <span v-bind:is="currentTab"></span>
@@ -29,31 +29,30 @@ import claScheTabCon from './claSchedule/claScheTabConIndex.vue'
     	},
         components:{teaTabCon,claScheTabCon},
         methods:{
-        	// tabChange(name){
-        	// 	console.log(name);
-        	// 	this.currentTab = tabItem;
-        	// }
+        
         }
     }
 </script>
 <style>
-.ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
+.body .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab-active {
     background: #e8ebcc;
     border-color: #080e1b;
     color: #f68375;
 }
-.ivu-tabs-nav {
+.body .ivu-tabs-nav {
     padding-left: 400px;
 }
-.ivu-tabs-nav-container:focus .ivu-tabs-tab-focused {
+.body .ivu-tabs-nav-container:focus .ivu-tabs-tab-focused {
     border-color: #020509 !important;
 }
-.ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
+.body .ivu-tabs.ivu-tabs-card > .ivu-tabs-bar .ivu-tabs-tab {
     background: #e8ebcc;
 }
-.ivu-tabs {
+.body .ivu-tabs {
     top: -33px;
 }
+</style>
+<style scoped>
 #sysAdmin{
     position: fixed;
     top:0;
